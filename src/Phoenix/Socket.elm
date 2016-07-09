@@ -1,4 +1,4 @@
-module Phoenix.Socket exposing (Socket, Msg, init, update, withDebug, join, leave, push, on, off, listen, withoutHeartbeat, withHeartbeatInterval)
+module Phoenix.Socket exposing (Socket, Msg(ChannelJoined, ChannelErrored, ChannelClosed), init, update, withDebug, join, leave, push, on, off, listen, withoutHeartbeat, withHeartbeatInterval)
 
 {-|
 
